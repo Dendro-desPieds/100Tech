@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: gray;
+}
+
+/* ---------helper--------- */
+
+
+
+.d-flex {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+.gap30 {
+    gap: 10px;
+}
+.y-center {
+    align-items: center;
+}
+.x-center {
+    justify-content: center;
+}
+.flex-end {
+    justify-content: flex-end;
+}
+.space-around {
+    justify-content: space-around;
+}
+.space-between {
+    justify-content: space-between;
+}
+
+
+
+
+/* -------HEADER--------- */
+
+
+
+header {
+    max-height: 50vh;
+}
+header nav {
+    box-shadow: 100px black;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+nav div {
+    width: 20%;
+}
+header img {
+    position: center;
+}
+
+ 
+.div_nav_p {
+    width: 50%;
+}
+.div_nav_p p:hover {
+    color: black;
+}
+.div_nav_img {
+    width: 10%;
+}
+.banniere {
+    height: 47vh;
+    background: url("../img/img/header.jpg");
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* ---------------------------------------------MAIN-------------- */
+
+
+
+
+h2 {
+    color: black
+}
+
+
+main nav {
+    position: absolute;
+    left: 80%;
+    top: 46.5vh;
+    width: 20%;
+    background-color: rgb(238, 238, 238);
+    height: 180vh;
+    z-index: -1;
+}
+
+nav div {
+    width: 75%;
+}
+
+nav h2, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+article {
+    width: 80%;
+    margin-top: 7vh;
+}
+article div {
+    width: 60%;
+    padding-left: 50px;
+}
+
+
+
+
+/* ---------FOOTER--------- */
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
